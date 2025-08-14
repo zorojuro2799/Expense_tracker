@@ -13,7 +13,8 @@ from datetime import datetime
 import pandas as pd
 import plotly.express as px
 import calendar
-
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 # ================== Configuration ==================
 BILLS_FILE = 'data/bills.json'
 EXPENSES_FILE = 'data/expenses.json'
