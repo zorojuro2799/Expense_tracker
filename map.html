@@ -1,0 +1,31 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Restaurant Location Map</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <style>#map { height: 500px; width: 100%; }</style>
+    </head>
+    <body>
+    <h2>FISH & CHIPS RESTAURANT Location</h2>
+    <div id="map"></div>
+    <script>
+        const latitude = 6.8735109;
+        const longitude = 81.0490113;
+
+        const map = L.map('map').setView([latitude, longitude], 15);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([latitude, longitude]).addTo(map)
+            .bindPopup('<b>FISH & CHIPS RESTAURANT</b><br>Lat: 0652.4107,N, Lon: 08102.9407,E')
+            .openPopup();
+    </script>
+    </body>
+    </html>
+    

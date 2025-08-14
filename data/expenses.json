@@ -1,0 +1,93 @@
+[
+    {
+        "amount": 155.99,
+        "category": "Food",
+        "description": "Bill at BUSINESS NAME",
+        "date": "2025-08-15 00:20:23",
+        "user": "msv"
+    },
+    {
+        "amount": 31.12,
+        "category": "Food",
+        "description": "Bill at FISH & CHIPS RESTAURANT",
+        "date": "2025-08-15 00:20:32",
+        "user": "msv"
+    },
+    {
+        "amount": 155.99,
+        "category": "Food",
+        "description": "Bill at BUSINESS NAME",
+        "date": "2025-08-15 00:37:17",
+        "user": "msv"
+    },
+    {
+        "amount": 31.12,
+        "category": "Food",
+        "description": "Bill at FISH & CHIPS RESTAURANT",
+        "date": "2025-08-15 00:37:24",
+        "user": "msv"
+    },
+    {
+        "amount": 51.2,
+        "category": "Food",
+        "description": "Bill at COSMOPOLITAN",
+        "date": "2025-08-15 00:38:55",
+        "user": "msv"
+    },
+    {
+        "amount": 51.2,
+        "category": "Food",
+        "description": "Bill at COSMOPOLITAN",
+        "date": "2025-08-15 00:39:07",
+        "user": "msv"
+    },
+    {
+        "amount": 51.2,
+        "category": "Food",
+        "description": "Bill at COSMOPOLITAN",
+        "date": "2025-08-15 00:39:07",
+        "user": "msv"
+    },
+    {
+        "amount": 51.2,
+        "category": "Food",
+        "description": "Bill at COSMOPOLITAN",
+        "date": "2025-08-15 00:39:08",
+        "user": "msv"
+    },
+    {
+        "amount": 51.2,
+        "category": "Food",
+        "description": "Bill at COSMOPOLITAN",
+        "date": "2025-08-15 00:39:09",
+        "user": "msv"
+    },
+    {
+        "amount": 51.2,
+        "category": "Food",
+        "description": "Bill at COSMOPOLITAN",
+        "date": "2025-08-15 00:39:10",
+        "user": "msv"
+    },
+    {
+        "amount": 20.0,
+        "category": "Food",
+        "description": "21232",
+        "date": "2025-08-15 00:39:18",
+        "user": "msv"
+    },
+    {
+        "amount": 20.0,
+        "category": "Food",
+        "description": "21232",
+        "date": "2025-08-15 00:39:22",
+        "user": "msv"
+    },
+    {
+        "amount": 20.0,
+        "category": "Food",
+        "description": "21232",
+        "date": "2025-08-15 00:39:22",
+        "user": "msv"
+    }
+]

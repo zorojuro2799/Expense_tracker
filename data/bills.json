@@ -1,0 +1,202 @@
+[
+    {
+        "restaurant": "BUSINESS NAME",
+        "bill_text": "BUSINESS NAME\n1234 Main Street\nsuite 567\nCity Name, State 54321\n123-456-7890\nLorem ipsum $1.25\nDolor sit amet $7.99\nconsectetur $26.70\nAdipiscing elit $15.49\nSed semper $18.79\nAccumsan ante $42.99\nNon laoreet $9.99\nDui dapibus eu $27.50\n\nSub Total $150.70\nSales Tax $5.29\n\nTOTAL $155.99\n\nPaid By: credit\n\n02/08/2022 09:36\n\u2018Teangaction 10: 234-567090\nVendor ib+ 987654-201\n\n\u2018Thank You For Supporting\n\u2018Local Business!\n\nPor)\n\nBUSINESS NAME\n\n1234 Main Street\n\u2018Suite 567\n\nCity Name, State 54321\n123-456-7890\n\nMerchant ID: 987~654321\n\u2018Terminal 1D: 0123456789\n\n\u2018Transaction ID:  #alb2c345\nType! Credit\n\nPURCHASE\n02/08/2022 09:36\n\nseeeveeeeeti234\nSwiped\n\ncard Name\n\nResponse: APPROVED\nApproval Code: 789-1234\n\ngettyimages\nf4 Credit: bortonia\n\nTOTAL (USD) $155.99\n\n\u2018THANK YOU FOR\nYOUR PURCHASE\n\n \n\f",
+        "location": {
+            "latitude": 19.9610558,
+            "longitude": 73.7642893,
+            "address": "Diamond And Gems Business, Office No 7, 2nd floor Deeplaxmi Apt, Mumbai Agra Highway, Nashik, Nashik Taluka, Nashik, Maharashtra, 422009, India",
+            "lat_nmea": "1957.6633N",
+            "lon_nmea": "07345.8574E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 155.99,
+        "bill_image": "gettyimages-1257664628-612x612.jpg",
+        "date": "2025-08-15 00:20:23",
+        "user": "msv"
+    },
+    {
+        "restaurant": "FISH & CHIPS RESTAURANT",
+        "bill_text": "FISH & CHIPS RESTAURANT\n1879. HIGH HOUSE RD\nNEW HILL, NC, 27513\n\n(919)-888-s888\n\n \n\n \n\n \n\nORDER : 64 1esi9/2019\nHOST : MEGAN 12:16 PM\n2 FISH & CHIPS BOWL 3 17.98\n2 DRINKS 3 3.98\n2 FISH SPYCY SOUP 3 7.96\nvIsA ses SALE\nSUBTOTAL 3 29.92\nTAX 1.20\nTOTAL: $31.12\nTRANSACTION TYPE: SALE\nAUTHORIZATIO! APPROVED\nPAYMENT CODE 233828\nPAYMENT ID: 8211884\nCARD READER SWIPED/CHIP\n\n+ TIP:\n\n \n\n \n\nCUSTOMER COPY\n\nTHANKS FOR VISITING\nFISH & CHIPS RESTAURANT\n\f",
+        "location": {
+            "latitude": 6.8735109,
+            "longitude": 81.0490113,
+            "address": "Fish and chips, Ella - Wellawaya Road, Pattiyakumbura, Ella, Badulla District, Uva Province, 90090, Sri Lanka",
+            "lat_nmea": "0652.4107N",
+            "lon_nmea": "08102.9407E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 31.12,
+        "bill_image": "create1.png",
+        "date": "2025-08-15 00:20:32",
+        "user": "msv"
+    },
+    {
+        "restaurant": "BUSINESS NAME",
+        "bill_text": "BUSINESS NAME\n1234 Main Street\nsuite 567\nCity Name, State 54321\n123-456-7890\nLorem ipsum $1.25\nDolor sit amet $7.99\nconsectetur $26.70\nAdipiscing elit $15.49\nSed semper $18.79\nAccumsan ante $42.99\nNon laoreet $9.99\nDui dapibus eu $27.50\n\nSub Total $150.70\nSales Tax $5.29\n\nTOTAL $155.99\n\nPaid By: credit\n\n02/08/2022 09:36\n\u2018Teangaction 10: 234-567090\nVendor ib+ 987654-201\n\n\u2018Thank You For Supporting\n\u2018Local Business!\n\nPor)\n\nBUSINESS NAME\n\n1234 Main Street\n\u2018Suite 567\n\nCity Name, State 54321\n123-456-7890\n\nMerchant ID: 987~654321\n\u2018Terminal 1D: 0123456789\n\n\u2018Transaction ID:  #alb2c345\nType! Credit\n\nPURCHASE\n02/08/2022 09:36\n\nseeeveeeeeti234\nSwiped\n\ncard Name\n\nResponse: APPROVED\nApproval Code: 789-1234\n\ngettyimages\nf4 Credit: bortonia\n\nTOTAL (USD) $155.99\n\n\u2018THANK YOU FOR\nYOUR PURCHASE\n\n \n\f",
+        "location": {
+            "latitude": 19.9610558,
+            "longitude": 73.7642893,
+            "address": "Diamond And Gems Business, Office No 7, 2nd floor Deeplaxmi Apt, Mumbai Agra Highway, Nashik, Nashik Taluka, Nashik, Maharashtra, 422009, India",
+            "lat_nmea": "1957.6633N",
+            "lon_nmea": "07345.8574E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 155.99,
+        "bill_image": "gettyimages-1257664628-612x612.jpg",
+        "date": "2025-08-15 00:37:17",
+        "user": "msv"
+    },
+    {
+        "restaurant": "FISH & CHIPS RESTAURANT",
+        "bill_text": "FISH & CHIPS RESTAURANT\n1879. HIGH HOUSE RD\nNEW HILL, NC, 27513\n\n(919)-888-s888\n\n \n\n \n\n \n\nORDER : 64 1esi9/2019\nHOST : MEGAN 12:16 PM\n2 FISH & CHIPS BOWL 3 17.98\n2 DRINKS 3 3.98\n2 FISH SPYCY SOUP 3 7.96\nvIsA ses SALE\nSUBTOTAL 3 29.92\nTAX 1.20\nTOTAL: $31.12\nTRANSACTION TYPE: SALE\nAUTHORIZATIO! APPROVED\nPAYMENT CODE 233828\nPAYMENT ID: 8211884\nCARD READER SWIPED/CHIP\n\n+ TIP:\n\n \n\n \n\nCUSTOMER COPY\n\nTHANKS FOR VISITING\nFISH & CHIPS RESTAURANT\n\f",
+        "location": {
+            "latitude": 6.8735109,
+            "longitude": 81.0490113,
+            "address": "Fish and chips, Ella - Wellawaya Road, Pattiyakumbura, Ella, Badulla District, Uva Province, 90090, Sri Lanka",
+            "lat_nmea": "0652.4107N",
+            "lon_nmea": "08102.9407E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 31.12,
+        "bill_image": "create1.png",
+        "date": "2025-08-15 00:37:24",
+        "user": "msv"
+    },
+    {
+        "restaurant": "FOOD INN FINE DINE",
+        "bill_text": "FOOD INN FINE DINE\n\nTAK INVOICE\n\nLillNo, 38391\n\nTIER Mus 1\nDAL FRIED 2\nRCL) i\nRo PLADS) 4\n\nTot Rs\n\neast @ 25%\nSST @ 25%\n\n \n\f",
+        "location": {
+            "latitude": null,
+            "longitude": null,
+            "address": null,
+            "lat_nmea": "N/A",
+            "lon_nmea": "N/A"
+        },
+        "amount": null,
+        "bill_image": "our-bill-for-the-day.jpg",
+        "date": "2025-08-15 00:37:35",
+        "user": "msv"
+    },
+    {
+        "restaurant": "thee tear",
+        "bill_text": "        \n       \n   \n\n   \n\nthee tear\n\n \n\n1 Klee. Bice\n1 Goes cr Sas\n1 hit cn Burger\n3 02 cos cola\n1 013 Rater\n\nBesse\n\n \n\nWieten Dark fr Ihren Besich\n\u2018Steuerumser: 50/027/01101\nTip 18 NOT INCLUDED\n\f",
+        "location": {
+            "latitude": null,
+            "longitude": null,
+            "address": null,
+            "lat_nmea": "N/A",
+            "lon_nmea": "N/A"
+        },
+        "amount": null,
+        "bill_image": "cosas.jpg",
+        "date": "2025-08-15 00:38:41",
+        "user": "msv"
+    },
+    {
+        "restaurant": "COSMOPOLITAN",
+        "bill_text": "COSMOPOLITAN\n30a ST GEORGE ST, CHORLEY\nTEL NO: 01257 233180\n\n \n\nVAT NO:\nM0 401\nREG HAKAN 18-08-2020 14:15 c04080\nCHECK No. 15\npe 3. DIET COKE \u00a38.55\nLi) 1. PT PERONI \u00a34.75\n4 FRUIT WICE 22.10\n( 4 OPEN FOOD \u00a375.80\ny EAT OUT =10.00\nLipp EAT OUT ~10.00\noi EAT OUT =10.00\nEAT OUT ~10.00\nsave TL \u00a351.20\n\ne THANK YOU FOR YOUR CUSTOM\ned SERVICE NOT INCLUDED\n\n  \n\f",
+        "location": {
+            "latitude": 52.2354931,
+            "longitude": 21.0016398,
+            "address": "Cosmopolitan, 4, Twarda, \u017belazna Brama, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, \u015ar\u00f3dmie\u015bcie, Warszawa, wojew\u00f3dztwo mazowieckie, 00-105, Polska",
+            "lat_nmea": "5214.1296N",
+            "lon_nmea": "02100.0984E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 51.2,
+        "bill_image": "restaurant-bill.jpg",
+        "date": "2025-08-15 00:38:55",
+        "user": "msv"
+    },
+    {
+        "restaurant": "COSMOPOLITAN",
+        "bill_text": "COSMOPOLITAN\n30a ST GEORGE ST, CHORLEY\nTEL NO: 01257 233180\n\n \n\nVAT NO:\nM0 401\nREG HAKAN 18-08-2020 14:15 c04080\nCHECK No. 15\npe 3. DIET COKE \u00a38.55\nLi) 1. PT PERONI \u00a34.75\n4 FRUIT WICE 22.10\n( 4 OPEN FOOD \u00a375.80\ny EAT OUT =10.00\nLipp EAT OUT ~10.00\noi EAT OUT =10.00\nEAT OUT ~10.00\nsave TL \u00a351.20\n\ne THANK YOU FOR YOUR CUSTOM\ned SERVICE NOT INCLUDED\n\n  \n\f",
+        "location": {
+            "latitude": 52.2354931,
+            "longitude": 21.0016398,
+            "address": "Cosmopolitan, 4, Twarda, \u017belazna Brama, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, \u015ar\u00f3dmie\u015bcie, Warszawa, wojew\u00f3dztwo mazowieckie, 00-105, Polska",
+            "lat_nmea": "5214.1296N",
+            "lon_nmea": "02100.0984E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 51.2,
+        "bill_image": "restaurant-bill.jpg",
+        "date": "2025-08-15 00:39:07",
+        "user": "msv"
+    },
+    {
+        "restaurant": "COSMOPOLITAN",
+        "bill_text": "COSMOPOLITAN\n30a ST GEORGE ST, CHORLEY\nTEL NO: 01257 233180\n\n \n\nVAT NO:\nM0 401\nREG HAKAN 18-08-2020 14:15 c04080\nCHECK No. 15\npe 3. DIET COKE \u00a38.55\nLi) 1. PT PERONI \u00a34.75\n4 FRUIT WICE 22.10\n( 4 OPEN FOOD \u00a375.80\ny EAT OUT =10.00\nLipp EAT OUT ~10.00\noi EAT OUT =10.00\nEAT OUT ~10.00\nsave TL \u00a351.20\n\ne THANK YOU FOR YOUR CUSTOM\ned SERVICE NOT INCLUDED\n\n  \n\f",
+        "location": {
+            "latitude": 52.2354931,
+            "longitude": 21.0016398,
+            "address": "Cosmopolitan, 4, Twarda, \u017belazna Brama, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, \u015ar\u00f3dmie\u015bcie, Warszawa, wojew\u00f3dztwo mazowieckie, 00-105, Polska",
+            "lat_nmea": "5214.1296N",
+            "lon_nmea": "02100.0984E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 51.2,
+        "bill_image": "restaurant-bill.jpg",
+        "date": "2025-08-15 00:39:07",
+        "user": "msv"
+    },
+    {
+        "restaurant": "COSMOPOLITAN",
+        "bill_text": "COSMOPOLITAN\n30a ST GEORGE ST, CHORLEY\nTEL NO: 01257 233180\n\n \n\nVAT NO:\nM0 401\nREG HAKAN 18-08-2020 14:15 c04080\nCHECK No. 15\npe 3. DIET COKE \u00a38.55\nLi) 1. PT PERONI \u00a34.75\n4 FRUIT WICE 22.10\n( 4 OPEN FOOD \u00a375.80\ny EAT OUT =10.00\nLipp EAT OUT ~10.00\noi EAT OUT =10.00\nEAT OUT ~10.00\nsave TL \u00a351.20\n\ne THANK YOU FOR YOUR CUSTOM\ned SERVICE NOT INCLUDED\n\n  \n\f",
+        "location": {
+            "latitude": 52.2354931,
+            "longitude": 21.0016398,
+            "address": "Cosmopolitan, 4, Twarda, \u017belazna Brama, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, \u015ar\u00f3dmie\u015bcie, Warszawa, wojew\u00f3dztwo mazowieckie, 00-105, Polska",
+            "lat_nmea": "5214.1296N",
+            "lon_nmea": "02100.0984E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 51.2,
+        "bill_image": "restaurant-bill.jpg",
+        "date": "2025-08-15 00:39:08",
+        "user": "msv"
+    },
+    {
+        "restaurant": "COSMOPOLITAN",
+        "bill_text": "COSMOPOLITAN\n30a ST GEORGE ST, CHORLEY\nTEL NO: 01257 233180\n\n \n\nVAT NO:\nM0 401\nREG HAKAN 18-08-2020 14:15 c04080\nCHECK No. 15\npe 3. DIET COKE \u00a38.55\nLi) 1. PT PERONI \u00a34.75\n4 FRUIT WICE 22.10\n( 4 OPEN FOOD \u00a375.80\ny EAT OUT =10.00\nLipp EAT OUT ~10.00\noi EAT OUT =10.00\nEAT OUT ~10.00\nsave TL \u00a351.20\n\ne THANK YOU FOR YOUR CUSTOM\ned SERVICE NOT INCLUDED\n\n  \n\f",
+        "location": {
+            "latitude": 52.2354931,
+            "longitude": 21.0016398,
+            "address": "Cosmopolitan, 4, Twarda, \u017belazna Brama, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, \u015ar\u00f3dmie\u015bcie, Warszawa, wojew\u00f3dztwo mazowieckie, 00-105, Polska",
+            "lat_nmea": "5214.1296N",
+            "lon_nmea": "02100.0984E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 51.2,
+        "bill_image": "restaurant-bill.jpg",
+        "date": "2025-08-15 00:39:09",
+        "user": "msv"
+    },
+    {
+        "restaurant": "COSMOPOLITAN",
+        "bill_text": "COSMOPOLITAN\n30a ST GEORGE ST, CHORLEY\nTEL NO: 01257 233180\n\n \n\nVAT NO:\nM0 401\nREG HAKAN 18-08-2020 14:15 c04080\nCHECK No. 15\npe 3. DIET COKE \u00a38.55\nLi) 1. PT PERONI \u00a34.75\n4 FRUIT WICE 22.10\n( 4 OPEN FOOD \u00a375.80\ny EAT OUT =10.00\nLipp EAT OUT ~10.00\noi EAT OUT =10.00\nEAT OUT ~10.00\nsave TL \u00a351.20\n\ne THANK YOU FOR YOUR CUSTOM\ned SERVICE NOT INCLUDED\n\n  \n\f",
+        "location": {
+            "latitude": 52.2354931,
+            "longitude": 21.0016398,
+            "address": "Cosmopolitan, 4, Twarda, \u017belazna Brama, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, \u015ar\u00f3dmie\u015bcie, Warszawa, wojew\u00f3dztwo mazowieckie, 00-105, Polska",
+            "lat_nmea": "5214.1296N",
+            "lon_nmea": "02100.0984E",
+            "lat_dir": "N",
+            "lon_dir": "E"
+        },
+        "amount": 51.2,
+        "bill_image": "restaurant-bill.jpg",
+        "date": "2025-08-15 00:39:10",
+        "user": "msv"
+    }
+]
