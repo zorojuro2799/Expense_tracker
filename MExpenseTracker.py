@@ -15,7 +15,7 @@ import plotly.express as px
 import calendar
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
-# ================== Configuration ==================
+# = Config =
 BILLS_FILE = 'data/bills.json'
 EXPENSES_FILE = 'data/expenses.json'
 USERS_FILE = 'data/users.json'
@@ -26,7 +26,7 @@ DATA_FOLDER = 'data'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(DATA_FOLDER, exist_ok=True)
 
-# ================== Helper Functions ==================
+#  Helper Functions 
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
@@ -76,7 +76,7 @@ def extract_restaurant_name(text):
     """Extract restaurant name from OCR text"""
     lines = text.split('\n')
     for line in lines:
-        if line.strip() and len(line.strip()) > 3:  # Filter out short lines
+        if line.strip() and len(line.strip()) > 3:  
             return line.strip()
     return "Unknown"
 
