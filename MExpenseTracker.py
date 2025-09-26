@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-import pytesseract
 from PIL import Image
 import json
 from geopy.geocoders import Nominatim
@@ -13,6 +12,15 @@ from datetime import datetime
 import pandas as pd
 import plotly.express as px
 import calendar
+import pytesseract
+import shutil
+
+# Detect Tesseract automatically
+tesseract_path = shutil.which("tesseract")
+if tesseract_path:
+    pytesseract.pytesseract.tesseract_cmd = tesseract_path
+else:
+    print("Warning: Tesseract not found. OCR will fail.")
 
 # ================== Configuration ==================
 BILLS_FILE = 'data/bills.json'
