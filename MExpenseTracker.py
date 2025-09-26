@@ -1,6 +1,18 @@
 import streamlit as st
 import os
 import pytesseract
+import shutil
+
+# Detect Tesseract automatically
+tesseract_path = shutil.which("tesseract")
+if tesseract_path:
+    pytesseract.pytesseract.tesseract_cmd = tesseract_path
+else:
+    raise RuntimeError(
+        "Tesseract OCR not found! "
+        "Ensure it's installed in the server environment."
+    )
+
 from PIL import Image
 import json
 from geopy.geocoders import Nominatim
