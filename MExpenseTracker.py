@@ -5,8 +5,6 @@ from PIL import Image
 import json
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
-import foliumimport pytesseract
-pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 from streamlit_folium import st_folium
 import re
 import hashlib
