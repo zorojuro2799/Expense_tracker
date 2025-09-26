@@ -3,15 +3,15 @@ import os
 import pytesseract
 import shutil
 
-# Detect Tesseract automatically
-tesseract_path = shutil.which("tesseract")
-if tesseract_path:
-    pytesseract.pytesseract.tesseract_cmd = tesseract_path
-else:
-    raise RuntimeError(
-        "Tesseract OCR not found! "
-        "Ensure it's installed in the server environment."
-    )
+# Automatically find Tesseract on Linux (Render)
+try:
+    tesseract_path = shutil.which("tesseract")
+    if tesseract_path:
+        pytesseract.pytesseract.tesseract_cmd = tesseract_path
+    else:
+        raise EnvironmentError("Tesseract not found in PATH. OCR will fail.")
+except Exception as e:
+    print(f"Warning: {e}")
 
 from PIL import Image
 import json
