@@ -36,7 +36,7 @@ cd Expense_tracker
 # Install dependencies
 pip install -r requirements.txt
 # Run app
-streamlit run app.py
+streamlit run MExpenseTracker.py
 
 
 📜 License
