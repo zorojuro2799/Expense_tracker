@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import pytesseract
 from PIL import Image
 import json
 from geopy.geocoders import Nominatim
@@ -12,15 +13,6 @@ from datetime import datetime
 import pandas as pd
 import plotly.express as px
 import calendar
-import pytesseract
-import shutil
-
-# Detect Tesseract automatically
-tesseract_path = shutil.which("tesseract")
-if tesseract_path:
-    pytesseract.pytesseract.tesseract_cmd = tesseract_path
-else:
-    print("Warning: Tesseract not found. OCR will fail.")
 
 # ================== Configuration ==================
 BILLS_FILE = 'data/bills.json'
@@ -151,20 +143,19 @@ def add_expense(amount, category, description='', username=None):
     st.rerun()
 
 def create_bill_entry(image_path, username=None):
+    """Process and create a bill entry"""
     text = extract_text_from_image(image_path)
     restaurant_name = extract_restaurant_name(text)
     location = get_geolocation(restaurant_name)
     
-    # Safe NMEA coordinates
     nmea_coords = decimal_to_nmea(location.get('latitude'), location.get('longitude'))
     location.update(nmea_coords)
     
-    # Safe amount extraction
     amount = extract_bill_amount(text)
     
     bill_entry = {
-        'restaurant': restaurant_name or "Unknown",
-        'bill_text': text or "",
+        'restaurant': restaurant_name,
+        'bill_text': text,
         'location': location,
         'amount': amount,
         'bill_image': os.path.basename(image_path),
@@ -177,8 +168,8 @@ def create_bill_entry(image_path, username=None):
     save_data(BILLS_FILE, bills)
     
     if amount is not None:
-      add_expense(amount, 'Food', f'Bill at {restaurant_name}', username)
-        
+        add_expense(amount, 'Food', f'Bill at {restaurant_name}', username)
+    
     return bill_entry
 
 def authenticate(username, password):
@@ -241,13 +232,11 @@ def create_map(bills, username=None):
                 NMEA: {loc['lat_nmea']}, {loc['lon_nmea']}
             """
             
-      if loc.get('latitude') is not None and loc.get('longitude') is not None:
-                   folium.Marker(
-                    location=[loc['latitude'], loc['longitude']],
-                    popup=folium.Popup(popup_content, max_width=300),
-                    icon=folium.Icon(color='red', icon='cutlery', prefix='fa')
+            folium.Marker(
+                location=[loc['latitude'], loc['longitude']],
+                popup=folium.Popup(popup_content, max_width=300),
+                icon=folium.Icon(color='red', icon='cutlery', prefix='fa')
             ).add_to(m)
-
     
     return m
 
@@ -380,25 +369,8 @@ def main_app(username):
                         st.write(f"**Address:** {bill_entry['location']['address']}")
                     
                     st.write("**Coordinates:**")
-                   lat = bill_entry['location'].get('latitude')
-                lon = bill_entry['location'].get('longitude')
-
-                      st.write(f"**Restaurant:** {bill_entry.get('restaurant', 'Unknown')}")
-                       if bill_entry.get('amount') is not None:
-                      st.write(f"**Amount:** ${bill_entry['amount']:.2f}")
-                       else:
-                            st.warning("Could not detect amount")
-
-                       if bill_entry['location'].get('address'):
-                            st.write(f"**Address:** {bill_entry['location']['address']}")
-
-    # Coordinates
-if lat is not None and lon is not None:
-    st.write(f"Decimal: {lat:.4f}°, {lon:.4f}°")
-    st.write(f"NMEA: {bill_entry['location'].get('lat_nmea','N/A')}, {bill_entry['location'].get('lon_nmea','N/A')}")
-else:
-    st.write("Coordinates not available")
-
+                    st.write(f"Decimal: {bill_entry['location']['latitude']:.4f}°, {bill_entry['location']['longitude']:.4f}°")
+                    st.write(f"NMEA: {bill_entry['location']['lat_nmea']}, {bill_entry['location']['lon_nmea']}")
     
     with tab2:
         st.header("Your Expenses")
